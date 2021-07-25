@@ -1,5 +1,4 @@
-# another test of the app
-
+# This is a test of the app
   
   ## Table of Contents:
   1. [Description](#description) 
@@ -12,19 +11,18 @@
   8. [E-mail](#contact)
 
 ## Description
-tttttttp 
+this describes the app 
 ## Installation
-oooooooooo
+installing app here
 ## Usage
-llllllll
+instructions are here
 ## Contributing
-yyyyyyyy
+reeeed
 ## Tests
-wwwww
+ppppp
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
 ## GitHub
-rrrrr
+lllll
 ## E-mail
-tttttttttt
+wwwww
