@@ -1,4 +1,4 @@
-# This is a test of the app
+# This is a demo of the readme generator.
   
   ## Table of Contents:
   1. [Description](#description) 
@@ -11,18 +11,18 @@
   8. [E-mail](#contact)
 
 ## Description
-this describes the app 
+This application allows users to easily create a readme file. 
 ## Installation
-installing app here
+No specific instructions required
 ## Usage
-instructions are here
+Invoke node index.js
 ## Contributing
-reeeed
+Anyone can contribute.
 ## Tests
-ppppp
+Test it by node index.js
 ## License
-
+undefined
 ## GitHub
-lllll
+meow@githubtest.com
 ## E-mail
-wwwww
+woof@woof.com.au
