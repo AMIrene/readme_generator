@@ -49,7 +49,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Walkthrough video
 
-
+[For the graders - have a look at the video demo](https://youtu.be/9yyKPG9__BY)
 
 ## Licenses
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
