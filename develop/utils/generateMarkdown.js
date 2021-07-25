@@ -1,19 +1,23 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 function renderlicenseBadge(license) {
- 
+
   if (license === "MIT") {
     return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
   };
+
   if (license === "GNU General Public License 2.0") {
     return `![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)`
+
   };
   if (license === "Apache License 2.0") {
     return `![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`
+
   };
   if (license === "GNU General Public License 3.0") {
-    return `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`
+    return `![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)`
+
   };
-  return ""
+  // return ""
 };
 // // If there is no license, return an empty string
 // function renderLicenseBadge(license) { }
@@ -62,6 +66,7 @@ module.exports = generateMarkdown;
 
 //test code to make sure each section is working
 // console.log(renderlicenseBadge("MIT"));
+
 // const test = {
 //   contact: "test",
 //   github: "gittest",
