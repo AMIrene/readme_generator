@@ -60,7 +60,7 @@ ${data.contact}`
 
 module.exports = generateMarkdown;
 
-//test code
+//test code to make sure each section is working
 // console.log(renderlicenseBadge("MIT"));
 // const test = {
 //   contact: "test",
