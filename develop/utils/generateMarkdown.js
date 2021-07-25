@@ -17,7 +17,7 @@ function renderlicenseBadge(license) {
     return `![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)`
 
   };
-  // return ""
+  return ""
 };
 // // If there is no license, return an empty string
 // function renderLicenseBadge(license) { }
