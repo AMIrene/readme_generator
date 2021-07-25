@@ -4,7 +4,7 @@
 
 This project was focused on developing a README file generator using node.js, npm [Inquirer package](https://www.npmjs.com/package/inquirer) and Javascript. The command-line application enables users to quickly and easily create high-quality README file, saving time and effort for the user so they can concentrate on the more important things. 
 
-You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project. A [sample README file generated using the application is available as a demo](develop/README.md). 
+You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project. A ![sample README file generated using the application is available as a demo](./develop/README.md). 
 
 ## Technologies used
 1. Node.js
