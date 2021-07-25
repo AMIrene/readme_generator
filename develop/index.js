@@ -3,6 +3,9 @@ function init() {
     // TODO: Include packages needed for this application
     const inquirer = require('inquirer');
     const fs = require('fs');
+    const generateMD = require('./utils/generateMarkdown');
+    // const path = require('path');
+
 
     const generateReadMe = (answers) =>
         // TODO: Create an array of questions for user input
@@ -16,19 +19,20 @@ function init() {
                 {
                     type: 'input',
                     name: 'description',
-                    message: 'Provide a description of your project',
+                    message: 'Provide a description of your project.',
                 },
                 {
                     type: 'input',
                     name: 'usage',
-                    message: 'Provide instructions on using the application',
+                    message: 'Provide instructions on using the application.',
                 },
                 {
                     type: 'checkbox',
                     name: 'licenses',
                     message: 'What licenses did you use for the application?',
-                    choices: ["MIT", "GNU General Public License 2.0", "Apache License 2.0", "GNU General Public License 3.0"]
+                    choices: ['MIT', 'GNU General Public License 2.0', 'Apache License 2.0', 'GNU General Public License 3.0']
                 },
+                
                 {
                     type: 'input',
                     name: 'contributions',
@@ -52,15 +56,16 @@ function init() {
                     message: 'What is your email address for other users to contact you?',
                 },
             ])
+            
             .then((answers) => {
                 const readMeContent = generateReadMe(answers);
 
                 // TODO: Create a function to write README file
-                fs.writeFile('Readme.md', readMeContent, (err) =>
+                fs.writeFile('README.md', readMeContent, (err) =>
                     err ? console.log(err) : console.log('Successfully created Readme.md content!')
                 );
             });
-
+generateReadMe();
 }
 
 // // TODO: Create a function to write README file

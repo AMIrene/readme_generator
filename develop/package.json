@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/AMIrene/readme_generator/issues"
   },
-  "homepage": "https://github.com/AMIrene/readme_generator#readme"
+  "homepage": "https://github.com/AMIrene/readme_generator#readme",
+  "devDependencies": {}
 }
