@@ -55,7 +55,7 @@ ${data.contributions}
 ## Tests
 ${data.tests}
 ## License
-${renderlicenseBadge(data.license)}
+${renderlicenseBadge(data.licenses)}
 ## GitHub
 ${data.github}
 ## E-mail
