@@ -32,8 +32,8 @@ function init() {
             },
             
             {
-                type: 'checkbox',
-                name: 'licenses',
+                type: 'list',
+                name: 'license',
                 message: 'What licenses did you use for the application?',
                 choices: ['MIT', 'GNU General Public License 2.0', 'Apache License 2.0', 'GNU General Public License 3.0'],
             },

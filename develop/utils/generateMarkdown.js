@@ -19,6 +19,8 @@ function renderlicenseBadge(license) {
   };
   return ""
 };
+
+
 // // If there is no license, return an empty string
 // function renderLicenseBadge(license) { }
 
@@ -55,7 +57,7 @@ ${data.contributions}
 ## Tests
 ${data.tests}
 ## License
-${renderlicenseBadge(data.licenses)}
+${renderlicenseBadge(data.license)}
 ## GitHub
 ${data.github}
 ## E-mail

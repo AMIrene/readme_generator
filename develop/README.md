@@ -1,4 +1,4 @@
-# This is a demo of the readme generator.
+# dwa
   
   ## Table of Contents:
   1. [Description](#description) 
@@ -11,18 +11,18 @@
   8. [E-mail](#contact)
 
 ## Description
-This application allows users to easily create a readme file. 
+dwa 
 ## Installation
-No specific instructions required
+daw
 ## Usage
-Invoke node index.js
+daw
 ## Contributing
-Anyone can contribute.
+daw
 ## Tests
-Test it by node index.js
+daw
 ## License
-undefined
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## GitHub
-meow@githubtest.com
+daw
 ## E-mail
-woof@woof.com.au
+daw
